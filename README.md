@@ -12,7 +12,7 @@ engines which claim to work on both back ends.
 Here are the workflow engines that were evaluated:
 
 
-|  Engine    | Source |  Written in | Workflow language(s) | Actively Maintained | Slurm support | AWS Batch Support | GCP Support | Azure Support | Notes**                                                                   | 
+|  Engine    | Source |  Written in | Workflow language(s) | Actively Maintained | Slurm support | AWS Batch Support | GCP Support | Azure Support | Notes                                                                   | 
 |-----------|------|------|----------------------|---------------------|---------------|-------------------|-------------|---------------|-------------------------------------------------------------------------| 
 | [Cromwell](https://github.com/broadinstitute/cromwell) | Broad Institute | Scala      | CWL/WDL              | ☑️                | ☑️          | ☑️              | ☑️        | ❌         | <sup>1</sup> | 
 | [NextFlow](https://nextflow.io) | Center for Genomic Regulation (Spain) | Java       | Groovy DSL           | ☑️                | ☑️          | ☑️              | ❌       | ❌         | <sup>2</sup>              | 
