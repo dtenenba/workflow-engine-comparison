@@ -21,10 +21,12 @@ Here are the workflow engines that were evaluated:
 | [SciLuigi*](https://github.com/jgolob/sciluigi/tree/containertask) | Pharmbio (SE) / jgolob | Python     | Python               | ❌               | ☑️          | ☑️              | via luigi?  | ❌         | <sup>4</sup>     | 
 
 
-<p><sup>1</sup> GCP support via Google Genomics Pipelines API.</p>
-<p><sup>2</sup> Has Kubernetes support so that may allow it to work on GCP.</p>
-<p><sup>3</sup> Runs on AWS (EC2, ECS(?), but not Batch).</p>
-<p><sup>3</sup> *=jgolob's fork, `container-task` branch provides AWS Batch support, he and sminot are actively using it.</p>
+<sup>1</sup> GCP support via Google Genomics Pipelines API.</p>
+<p><sup>2</sup> Has Kubernetes support so that may allow it to work on GCP.
+
+<sup>3</sup> Runs on AWS (EC2, ECS(?), but not Batch).
+
+<sup>3</sup> jgolob's fork, `container-task` branch provides AWS Batch support, he and sminot are actively using it.
 
 ## Contents of Repository
 
