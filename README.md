@@ -26,7 +26,7 @@ Here are the workflow engines that were evaluated:
 
 <sup>3</sup> Runs on AWS (EC2, ECS(?), but not Batch).
 
-<sup>3</sup> jgolob's fork, `container-task` branch provides AWS Batch support, he and sminot are actively using it.
+<sup>4</sup> jgolob's fork, `container-task` branch provides AWS Batch support, he and sminot are actively using it.
 
 ## Contents of Repository
 
