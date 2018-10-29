@@ -18,7 +18,7 @@ Here are the workflow engines that were evaluated:
 | [NextFlow](https://nextflow.io) | Center for Genomic Regulation (Spain) | Java       | Groovy DSL           | ☑️                | ☑️          | ☑️              | ❌       | ❌         | <sup>2</sup>              | 
 | [Toil](https://github.com/DataBiosphere/toil)  | UCSC    | Python     | Python/CWL           | ☑️                | ☑️          | ❌             | ☑️        | ☑️          | <sup>3</sup>                                | 
 | [Luigi](https://github.com/spotify/luigi)   | Spotify  | Python     | Python               | ☑️                | ❌         | ☑️              | ☑️        | ❌         |                                                                         | 
-| [SciLuigi*](https://github.com/jgolob/sciluigi/tree/containertask) | Pharmbio (SE) / jgolob | Python     | Python               | ❌               | ☑️          | ☑️              | via luigi?  | ❌         | <sup>4</sup>     | 
+| [SciLuigi](https://github.com/jgolob/sciluigi/tree/containertask) | Pharmbio (SE) / jgolob | Python     | Python               | ❌               | ☑️          | ☑️              | via luigi?  | ❌         | <sup>4</sup>     | 
 
 
 <sup>1</sup> GCP support via Google Genomics Pipelines API.</p>
@@ -26,7 +26,8 @@ Here are the workflow engines that were evaluated:
 
 <sup>3</sup> Runs on AWS (EC2, ECS(?), but not Batch).
 
-<sup>4</sup> jgolob's fork, `container-task` branch provides AWS Batch support, he and sminot are actively using it.
+<sup>4</sup> jgolob's fork, `container-task` branch provides AWS Batch support, he and sminot are actively using it, but the original maintainers
+have moved on to another project and would be willing to hand this project over to a new maintainer.
 
 ## Contents of Repository
 

@@ -20,8 +20,7 @@
 * `aws.conf` is the configuration file that enables Cromwell to talk to Batch.
   This is where you define the AWS Batch Job Queue you want to use.
 * `hello.wdl` is the description of the workflow you want to run. It's another
-  simple `hello world` task. Note that the name of the Docke
-  r image you want  
+  simple `hello world` task. Note that the name of the Docker image you want  
   to use also goes here.
 * `hello.inputs` is a JSON file that contains the value of a variable 
   referenced in `hello.wdl`. 
