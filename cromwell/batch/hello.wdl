@@ -7,7 +7,7 @@ task hello {
     String message = read_string(stdout())
   }
   runtime {
-    docker: "centos:latest"
+    docker: "ubuntu:latest"
   }
 }
 
