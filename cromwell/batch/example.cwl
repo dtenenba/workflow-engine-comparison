@@ -4,7 +4,7 @@ baseCommand: echo
 stdout: output.txt
 requirements:
   - class: DockerRequirement
-    dockerPull: ubuntu:latest
+    dockerPull: "ubuntu:latest"
 inputs:
   message:
     type: string
