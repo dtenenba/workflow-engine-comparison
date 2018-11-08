@@ -33,3 +33,6 @@
 
 The output will be available in the S3 bucket/prefix referenced in `aws.conf`.
 
+## Run a CWL job in Batch:
+
+java -Dconfig.file=aws.conf -jar cromwell-36.jar run example.cwl -i example-job.yaml
